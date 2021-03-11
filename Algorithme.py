@@ -207,8 +207,6 @@ def create_order():
             #On stock l'identifiant de l'ordre pour pouvoir faire un suivi
             Position.id_takeprofit = order['id']
             
-            
-
 #Price permet d'obtenir les prix pour l'actif à trader
 class Price:
     def __init__(self):
@@ -216,7 +214,6 @@ class Price:
         response = response.json()
         self.sell=float(response['bids'][0][0])
         self.buy=float(response['asks'][0][0])
-
 
 #On se reconnecte au service CoinBase et on actualise les configurations
 def connexion_refresh():
