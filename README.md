@@ -2,7 +2,7 @@ PublicTradingBot
 ===
 
 
-[![Build status](https://ci.appveyor.com/api/projects/status/bfktntbivg32e103?svg=false)]
+![Build status](https://ci.appveyor.com/api/projects/status/bfktntbivg32e103?svg=false)
 
 
 Features
