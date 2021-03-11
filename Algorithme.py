@@ -10,7 +10,6 @@
 #Ensuite on fait un echange vers cette crypto  (qu'on appelle crypto dans le programme)
 #On suit le cours de cette crypto choisie et lorsque le rendement est atteint, on effectue un echange vers le stable coin
 
-
 import cbpro, time, requests,json,os,math,datetime
 from tradingview_ta import TA_Handler, Interval
 from configparser import ConfigParser
@@ -133,8 +132,6 @@ def analyse_resistances():
     resistances.remove(resistances[len(resistances)-1])
     return resistances
 
-
-
 #Fonction pour enregistrer du texte dans un fichier .txt
 def save_order(texte):
     fichier_text = open("Ordres.txt","a") 
@@ -158,8 +155,6 @@ def trading():
             Position.information='close'
             Position.nb_win+=1
         
-    
-
 #Cette fonction gère les ordres
 def create_order():
     order = auth_client.place_market_order(product_id=product_id, side='buy',  funds=Balance().stablecoin)
