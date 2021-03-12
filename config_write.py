@@ -1,3 +1,16 @@
+key = input('ENTER YOUR PUBLIC KEY')
+passphrase = input('ENTER YOUR PASSPHRASE:')
+b64secret = input('ENTER YOUR SECRET KEY:')
+api_url='https://api-public.sandbox.pro.coinbase.com'
+exchange = 'COINBASE'
+crypto= 'BTC'
+currency_symbol = 'EUR'
+risk = input('ENTER YOUR RISK:')
+stablecoin='EUR'
+ROI=input('ENTER YOUR RETURN ON INVESTMENT:')
+
+
+
 try:
     from configparser import ConfigParser
 except ImportError:
@@ -6,16 +19,6 @@ except ImportError:
 # instantiate
 config = ConfigParser()
 
-key = 'ENTER YOUR PUBLIC KEY'
-passphrase = 'ENTER YOUR PASSPHRASE'
-b64secret = 'ENTER YOUR SECRET KEY'
-api_url='https://api-public.sandbox.pro.coinbase.com'
-exchange = 'COINBASE'
-crypto= 'BTC'
-currency_symbol = 'EUR'
-risk = 'ENTER YOUR RISK'
-stablecoin='EUR'
-ROI='ENTER YOUR RETURN ON INVESTMENT'
 
 # add a new section and some values
 config.add_section('main')
