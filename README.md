@@ -1,4 +1,4 @@
-PublicTradingBot
+Coinbase Pro Bot Example
 ===
 
 
