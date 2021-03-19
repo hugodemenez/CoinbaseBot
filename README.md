@@ -17,7 +17,7 @@ Features
 Installation
 ------------
 
-- Download [GitHub](https://github.com/hugodemenez/PublicTradingBot).
+- Download [GitHub](https://github.com/hugodemenez/CoinbaseBot/archive/refs/heads/main.zip).
   
 - Install Requirements.txt with pip3:
 
