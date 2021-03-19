@@ -24,9 +24,11 @@ Installation
 
 Usage
 -----
-- ```cd CoinbaseBot-main```
-- ```python3 config_write.py```
-- ```python3 Algorithme.py```
+```
+cd CoinbaseBot-main
+python3 config_write.py
+python3 Algorithme.py
+```
 
 Contribution
 ------------
