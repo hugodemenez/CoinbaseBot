@@ -1,6 +1,6 @@
 Coinbase Pro Bot Example
 ===
-
+> :warning: **USE AT YOUR OWN RISKS**: Be very careful !
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
