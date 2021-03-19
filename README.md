@@ -24,7 +24,8 @@ Installation
 
 Usage
 -----
-cd PublicTradingBot
+cd CoinbaseBot-main
+python3 write_config.py
 python3 Algorithme.py
 
 Contribution
