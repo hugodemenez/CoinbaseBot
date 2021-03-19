@@ -2,7 +2,6 @@ Coinbase Pro Bot Example
 ===
 
 
-![Build status](https://ci.appveyor.com/api/projects/status/bfktntbivg32e103?svg=false)
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Features
