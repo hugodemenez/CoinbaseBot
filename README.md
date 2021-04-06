@@ -9,7 +9,7 @@ Features
 
 - Open trades on Coinbase PRO, with TakeProfit Limit
 - Trading based on Supports/Resistance with EMA and Stochastic analysis
-  - Using tradingview_ta 
+-- Using tradingview_ta 
 
 
 
